@@ -1,0 +1,40 @@
+# robots.txt - Artemoderno
+# Permite acceso completo a bots de Meta, Facebook, WhatsApp y crawlers principales
+
+User-agent: *
+Allow: /
+
+# Meta / Facebook
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: facebookcatalog
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: meta-externalfetcher
+Allow: /
+
+# WhatsApp
+User-agent: WhatsApp
+Allow: /
+
+# Otros bots permitidos
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+Sitemap: https://artemoderno.store/sitemap.xml
